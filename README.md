@@ -9,21 +9,17 @@
   <a href="#-license">📝 License</a>
 </p>
 
-<p align="center">
-    <a href="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/901a6337-a11c-4360-b1a6-a40cbffabeed"><img src="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/901a6337-a11c-4360-b1a6-a40cbffabeed.svg" alt="wakatime"></a>
-</p>
-
 ![image](https://user-images.githubusercontent.com/47321783/196984668-446f1faf-e878-4a3f-a949-ebb94e2ed018.png)
 
 ## 💻 Projeto
 
 Projeto feito para o aprendizado de manipulação de DOM e validação de formulário.
-This project was created for knowledge about DOM manipulation and form validation.
+<p>This project was created for knowledge about DOM manipulation and form validation.</p>
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
-This Project was developed using:
+<p>This Project was developed using:</p>
 
 - HTML e CSS
 - Typescript
