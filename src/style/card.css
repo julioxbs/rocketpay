@@ -1,0 +1,49 @@
+/* Card Styles */
+
+#card {
+    display: block;
+    width: 100%;
+    background: url("./src/assets/card_bg.svg") no-repeat center;
+
+    object-fit: cover;
+    padding: 1.5rem;
+    color: #FFF;
+    overflow: hidden;
+}
+
+#card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#card__body #card__numbers {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#card__body div > small,
+#card__footer div > small {
+    font-size: 10px;
+}
+
+#card__body div > p {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#card__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+#card__footer div > p {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}

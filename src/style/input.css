@@ -1,0 +1,47 @@
+form,
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    gap: 12px;
+}
+
+label {
+    gap: 8px;
+}
+
+input {
+    background-color: #121214;
+    border: 1px solid #323238;
+    color: #fff;
+    padding: 0 12px;
+    border-radius: 6px;
+    height: 41px;
+    width: 100%;
+}
+
+form label {
+    letter-spacing: 1px;
+    color: #E1E1E6;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#form__header {
+    display: flex;
+    text-transform: uppercase;
+    color: #959595;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+#form__header span {
+    color: #fff;
+}
+
+#wrap__input {
+    display: flex;
+    gap: 8px;
+}

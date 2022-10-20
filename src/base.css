@@ -1,0 +1,99 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#app {
+    min-height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #121214;
+    padding: 1rem;
+}
+
+#content {
+    padding: 28px 48px 40px 48px;
+    background-color: #323238;
+    border-radius: 6px;
+
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    align-items: center;
+
+    gap: 24px;
+}
+
+button {
+    background-color: #42D3FF;
+    color: #121212;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    padding: 16px 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+/* Media Query */
+@media only screen and (max-width: 782px) {
+    #content {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    #card {
+        border-radius: 6px;
+    }
+
+    form {
+        order: 2;
+    }
+
+    form #form__header {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    #card__body #card__numbers {
+        font-size: 16px;
+        letter-spacing: .5px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #card__body #card__numbers {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #card__body #card__numbers {
+        font-size: 16px;
+        letter-spacing: .5px;
+    }
+}

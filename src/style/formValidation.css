@@ -1,0 +1,10 @@
+/* Form validation */
+
+.just-validate-error-label {
+    color: #ee0808 !important;
+    font-weight: 700;
+}
+
+.just-validate-error-field {
+    border: 1px solid #ee0808;
+}

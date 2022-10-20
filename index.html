@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Rocketpay</title>
+</head>
+<body>
+<main id="app">
+    <div id="content">
+        <form id="form">
+            <div id="form__header">
+                <p>rocket<span>pay</span></p>
+                <img src="./src/assets/subtract.svg">
+            </div>
+
+            <label>
+                Card number
+                <input type="number" name="number" id="number">
+            </label>
+
+            <label>
+                Name on card
+                <input type="text" name="name" id="name">
+            </label>
+
+            <div id="wrap__input">
+                <label>
+                    Expiry date
+                    <input type="month" min="2022-01" name="date" id="date">
+                </label>
+
+                <label>
+                    CVV
+                    <input type="number" name="cvv" id="cvv">
+                </label>
+            </div>
+
+            <button type="submit">Add card</button>
+        </form>
+
+        <div id="card">
+            <div id="card__header">
+                <img src="./src/assets/subtract.svg">
+                <img id="card__brand" src="">
+            </div>
+
+            <div id="card__body">
+                <p id="card__numbers">0000 0000 0000 0000</p>
+
+                <div>
+                    <small>Name on card</small>
+                    <p id="card__name">your name</p>
+                </div>
+
+                <div id="card__footer">
+                    <div>
+                        <small>Expiry date</small>
+                        <p id="card__date">00/00</p>
+                    </div>
+
+                    <div>
+                        <small>CVV</small>
+                        <p id="card__cvv">000</p>
+                    </div>
+
+                    <img src="./src/assets/chip.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal-->
+
+    <div id="modal" class="hidden">
+        <div id="modal__content">
+            <img src="./src/assets/check-circle.svg">
+
+            <div id="message">
+                <h2>Great!</h2>
+                <p>Your credit card has been add successfully</p>
+                <button id="close__btn">Close</button>
+            </div>
+        </div>
+    </div>
+</main>
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
