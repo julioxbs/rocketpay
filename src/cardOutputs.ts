@@ -17,7 +17,7 @@ document.querySelector("#number")?.addEventListener("input", (e: Event) => {
     } else {
         cardNumbers.textContent = formatCreditCardNumbers(e);
         if (brandOfCard(e) != 'undefined') {
-            return cardBrand.src = `/assets/${brandOfCard(e)}.svg`;
+            return cardBrand.src = `/${brandOfCard(e)}.svg`;
         } else {
             return cardBrand.src = "";
         }
